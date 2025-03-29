@@ -6,8 +6,18 @@
 @use 'layout/footer';
 @use 'pages/index';*/
 
+@use 'layout/header';
+
 *{
     margin: 0;
     padding: 0;
     width: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.nav__menu-burger {
+    width: 24px;
+    height: auto;
 }
