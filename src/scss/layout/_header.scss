@@ -1,4 +1,48 @@
 .header {
-  height: 100vh;
+  height: 80vh;
   width: auto;
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
 }
+
+h1{
+  margin-block: 60px;
+}
+.header__hero {
+ text-align: center;
+}
+
+.header__btn{
+  text-decoration: none;
+  color:white;
+  background-color: #0c474b;
+  width: max-content;
+  display:inline-block;
+  padding-block:10px;
+  padding-inline:20px;
+}
+/* corregir esta ñapa*/
+.nav{
+  margin-top: -33px;
+  padding-inline: 33px;
+  height: 30%;
+  width: 100vw;
+  display:flex;
+  position:sticky; top:20px; left:20px;
+}
+
+.nav__menu-burger {
+  width: 24px;
+  height: 24px;
+  color: #0c474b;
+}
+
+.nav__logo{
+  width: 255px;
+  height: 120px;
+  margin-inline-start: 25%;
+  margin-top:10%;
+}
+
