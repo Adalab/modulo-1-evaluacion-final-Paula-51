@@ -1,8 +1,16 @@
+
 .footer{
   background-color: #0c474b;
   color:#f0ebe5;
   padding-left: 35%;
   padding-top: 15%;
+  @media (min-width: 900px) {
+    display:flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left:15%;
+ }
+
 }
 
 .footer__box{
@@ -12,6 +20,7 @@
     height: 200px;
     width: 50%;
 }
+
 ul{
     list-style: none;
   }

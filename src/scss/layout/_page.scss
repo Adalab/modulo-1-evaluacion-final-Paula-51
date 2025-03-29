@@ -1,15 +1,27 @@
 .seccion1__main{
     background-color:#f0ebe5 ;
-    height: 1108px;
     padding-inline: 96px;
     display:grid;
     grid-template-columns: 100%;
+}
+
+.main__articles{
+    @media (min-width: 900px) {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+      }
 }
 
 h2{
     text-align: center;
     padding-top: 45px;
     font-weight: 500;
+    @media (min-width: 900px) {
+        text-align: left;
+    }
+}
+.naranja{
+    text-align: center;
 }
 
 h3{
@@ -21,7 +33,7 @@ h3{
 
 .main__article{
 text-align: center;
-padding-inline: 25px;
+padding: 35px;
 }
 
 .seccion1__icon1{
@@ -56,6 +68,16 @@ padding-inline: 25px;
     background-color: #f0ebe5;
     text-align: center;
     padding-block:15%;
+    @media (min-width: 900px) {
+        padding-inline:25%;
+        text-align: left;
+}}
+
+.cta{
+    @media (min-width: 900px) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 .banner {
@@ -64,4 +86,7 @@ padding-inline: 25px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+    @media (min-width: 900px) {
+        height: auto;
+        background-size: cover;
+}}
