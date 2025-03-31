@@ -32,7 +32,7 @@
 .flecha{
   width: 24px;
   height: 24px;
-  position: fixed; left:90%; bottom:3%;
+  position: fixed; left:90%; bottom:5%;
 }
 
 ul{
@@ -45,7 +45,7 @@ ul{
  } 
 
  .footer ul a:hover {
-  color:#ff975a;
+  color:rgb(128, 209, 237);
  }
 
  .footer__icons {
@@ -58,6 +58,6 @@ ul{
   }
  }
 
- .footer__icons a:hover {
-  
- }
+ .footer__icon:hover {
+  filter: invert(30%) sepia(80%) saturate(300%) hue-rotate(180deg) brightness(90%) contrast(90%);
+}
