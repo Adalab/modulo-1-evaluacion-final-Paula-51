@@ -16,12 +16,22 @@
         text-align: center;
         padding-inline: 10%;
     }
+    @media (min-width: 1728px) {
+        text-align: center;
+        padding-inline: 30%;
+        padding-top: 30px;;
+    }
 }
 
 .main__articles{
     @media (min-width: 900px) {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+      }
+      @media (min-width: 1728px){
+        width: 75%;
+        padding-left:10%;
+        column-gap: 15%;
       }
 }
 
@@ -95,7 +105,8 @@ padding: 35px;
         padding-bottom: 10%;
     }
     @media (min-width: 1728px) {
-        padding-inline:25%;
+        padding-inline:35%;
+        padding-top: 25%;
         text-align: left;
 }}
 
@@ -107,11 +118,11 @@ padding: 35px;
     }
 }
 
-/*.cta__p{
-    @media (min-width: 900px) {
-        padding-inline: 40%;
+.cta__title{
+    @media (min-width: 1728px){
+        text-align: left;
     }
-}*/
+}
 
 .banner {
     background-image: url("../images/creando-espacios.jpg");
@@ -123,4 +134,8 @@ padding: 35px;
         height: 40vh;
         background-size: cover;
         background-position: bottom;
+     @media (min-width: 1728px){
+        height: 60vh;
+     }
+    
 }}

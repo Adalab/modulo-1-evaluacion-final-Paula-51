@@ -9,7 +9,14 @@
     flex-direction: row;
     padding-inline: 15%;
     padding-block:10%;
-}}
+}
+@media (min-width: 1728px){
+  display:flex;
+  flex-direction: row;
+  padding-left: 27%;
+  padding-block:5%;
+}
+}
 
 .footer__box{
     display:flex;
