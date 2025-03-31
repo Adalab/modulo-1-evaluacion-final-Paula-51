@@ -11,14 +11,20 @@ h1{
   display: flex;
   flex-direction: column;
   margin-block: 15%;
-  font-weight: 500; 
+  font-size: 24px;
+  font-weight: 600; 
+  @media (min-width: 900px){
+    font-size: 36px;
+    margin-bottom: 5%;
+
+  }
 }
 
 
 .header__hero {
  text-align: center;
  @media (min-width: 900px) {
-  width: 50%;
+  width: 60%;
   padding-left:20%;
   text-align: left;
 }
@@ -32,6 +38,9 @@ h1{
   padding-block:10px;
   padding-inline:20px;
   margin-block: 20px;
+  @media (min-width: 900px){
+    margin-top:20px;
+  }
 }
 /* corregir esta ñapa*/
 .nav{
@@ -53,7 +62,10 @@ h1{
   width: 213px;
   height: 96px;
   margin-bottom: 62px;
-  
+  @media (min-width: 900px){
+    position:relative; top:50px; left: 40vw;
+
+  }
   
 }
 
