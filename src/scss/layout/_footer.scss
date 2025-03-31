@@ -40,6 +40,14 @@ ul{
     font-size: 14px;
   }
 
+ .footer ul a{
+  color: #b6c8c9;
+ } 
+
+ .footer ul a:hover {
+  color:#ff975a;
+ }
+
  .footer__icons {
   margin-top: 20px;
   @media (min-width: 900px){
@@ -48,4 +56,8 @@ ul{
     justify-content: start;
     gap:15px;
   }
+ }
+
+ .footer__icons a:hover {
+  
  }

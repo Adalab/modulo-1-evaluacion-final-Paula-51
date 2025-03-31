@@ -23,6 +23,11 @@ h1{
   }
 }
 
+.header__btn:hover{
+  color: #0c474b;
+  background-color: aliceblue;
+  border-radius: 25px;
+}
 
 .header__hero {
  text-align: center;
@@ -75,6 +80,16 @@ display: none;
   gap:50px;
   padding-left: 18%;
 }
+}
+
+.nav__text a{
+  font-size: 16px;
+  color: #0c474b;
+}
+
+.nav__text a:hover {
+  color: #ff975a;
+  font-weight: 500px;
 }
 
 
