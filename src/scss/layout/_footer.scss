@@ -20,6 +20,15 @@
     height: 200px;
     width: 50%;
 }
+.footer__flecha{
+  display: block;
+}
+
+.flecha{
+  width: 24px;
+  height: 24px;
+  position: fixed; left:90%; bottom:3%;
+}
 
 ul{
     list-style: none;
